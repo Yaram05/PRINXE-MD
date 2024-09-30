@@ -8,7 +8,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNERS;
 if (!ownervb){
-   throw new Error("OWNERS env is not set");
+   throw new Error(" 923194741283 ");
 }
 
 const ownerlist = ownervb.split(';');
@@ -20,14 +20,14 @@ for (let i = 0; i < ownerlist.length; i += 2) {
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(Yaram);
 }
 
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+//💌global.pairingNumber = "" //923194741283 💌
+global.mods = ['923194741283'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
